@@ -1,8 +1,8 @@
 # 나무코드 Namucode
 
-[나무위키](https://namu.wiki)의 Monaco 편집기의 VSCode 확장 프로그램 버전입니다. 많은 기능이 추가될 예정입니다.
+[바로위키](https://baro.wiki)의 프로그램입니다. 많은 기능이 추가될 예정입니다.
 
-- [나무코드 Namucode](#나무코드-namucode)
+- [바로코드 Barocode](#바로코드-barocode)
   - [설치](#설치)
   - [사용법](#사용법)
   - [기능](#기능)
@@ -21,15 +21,15 @@
 
 ## 설치
 
-나무코드는 VSCode 확장 프로그램으로, [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jhk1090.namucode)에서 다운받을 수 있습니다.
+바로코드는 VSCode 프로그램으로, [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=23Hyohun.barocode)에서 다운받을 수 있습니다.
 
 ## 사용법
 
-1. 나무코드를 설치합니다. (상단 설치 링크)
-1. 설치 후 언어칸에서 '나무마크'를 선택하거나 파일 확장자를 `.namu`로 바꿔줍니다.
-1. 설정이 끝났으며 나무마크 문법을 사용해보세요!
+1. 바로코드를 설치합니다. (상단 설치 링크)
+1. 설치 후 언어칸에서 '바로마크'를 선택하거나 파일 확장자를 `.baro`로 바꿔줍니다.
+1. 설정이 끝났으며 바로마크 문법을 사용해보세요!
 
-| ![namucode_onlanguageselect](./images/namucode_onlanguageselect.png) |
+| ![barocode_onlanguageselect](./images/barocode_onlanguageselect.png) |
 | :----: |
 | 선택란 |
 
@@ -37,12 +37,12 @@
 
 ### 텍스트 강조 기능 (Syntax Highlighting)
 
-나무코드는 텍스트 강조를 지원합니다.\
+바로코드는 텍스트 강조를 지원합니다.\
 기존 에디터보다 더 세세한 강조가 지원됩니다.
 
-| ![namucode_origin](./images/namucode_origin.jpg) | ![namucode_vscode](./images/namucode_vscode.png) |
+| ![barocode_origin](./images/barocode_origin.jpg) | ![barocode_vscode](./images/barocode_vscode.png) |
 | :----: | :----: |
-| 나무위키 편집기 | **나무코드 편집기** |
+| 바로위키 편집기 | **바로코드 편집기** |
   
 
 ### 코드 분석 기능 (Linting)
@@ -51,31 +51,31 @@
 현재 코드 분석을 통해 강조를 지원하는 구문은 다음과 같습니다.
 
 <!-- - **고정 주석 강조** - `##@`를 사용한 고정 주석을 강조합니다. -->
-- **비권장 문법 경고 표시** - 나무위키에서 권장하지 않는 문법을 사용한 경우 경고를 표시합니다.
+- **비권장 문법 경고 표시** - 바로위키에서 권장하지 않는 문법을 사용한 경우 경고를 표시합니다.
   - 1단계 문단 경고
 - **인용문 오류 표시** - 인용문은 8단계 이상 중첩할 수 없습니다. 만약 사용한 경우 오류를 표시합니다.
 
 ### 미리보기 (Preview)
 #### 개발 중인 기능입니다. 일부 문법이 꺠지거나 불안정 할 수 있습니다.
-나무코드는 미리보기를 지원합니다.\
+바로코드는 미리보기를 지원합니다.\
 `F1`을 눌러 **나무코드: 미리보기** 옵션을 누르거나 `*.namu` 파일의 오른쪽 상단에 위치한 미리보기 아이콘을 눌러 미리보기를 조회할 수 있습니다.\
 **개발 중인 기능**으로 1000줄까지만 렌더링을 지원합니다! (그 이상은 파서 성능이..)
 
-| ![Image](./images/namucode_preview_icon.png) | ![Image](./images/namucode_preview_example.png) |
+| ![Image](./images/barocode_preview_icon.png) | ![Image](./images/barocode_preview_example.png) |
 | :----: | :----: |
 | 미리보기 아이콘 | 미리보기 예시 |
 
 ### 문단 자동 정렬 기능 (Auto-Sorting Paragraph)
-나무코드는 문단 자동 정렬 기능을 지원합니다.\
-`F1`을 눌러 **나무코드: 문단 자동 정렬** 옵션을 누르거나 `*.namu` 파일의 오른쪽 상단에 위치한 문단 자동 정렬 아이콘을 눌러 미리보기를 조회할 수 있습니다.
+바로코드는 문단 자동 정렬 기능을 지원합니다.\
+`F1`을 눌러 **바로코드: 문단 자동 정렬** 옵션을 누르거나 `*.baro` 파일의 오른쪽 상단에 위치한 문단 자동 정렬 아이콘을 눌러 미리보기를 조회할 수 있습니다.
 
-| ![Image](./images/namucode_sort_icon.png) |
+| ![Image](./images/barocode_sort_icon.png) |
 | :----: |
 | 문단 자동 정렬 아이콘
 
 ### 자동완성 기능 (Snippet)
 
-나무코드는 편의를 위한 자동완성을 지원합니다.\
+바로코드는 편의를 위한 자동완성을 지원합니다.\
 쉽게 `ctrl+space`로 자동완성 목록을 볼 수 있습니다.\
 현재 자동완성 목록은 다음과 같습니다.
 
@@ -126,18 +126,18 @@
 편집기 왼쪽 탐색기 탭에서 확인할 수 있으며, 문단 제목의 내용을 그대로 가져와 '개요'(outline) 란에 표시합니다.\
 목차 클릭시 클릭한 목차로 이동됩니다.
 
-![namucode_tableofcontent](./images/namucode_toc.png)
-_▲ 나무위키:문법 도움말_
+![namucode_tableofcontent](./images/barocode_toc.png)
+_▲ 바로위키:문법 도움말_
 
 ## 기여
-프로젝트 발전에 기여하시는 분들을 전부 환영합니다! [Pull Requests](https://github.com/jhk1090/namucode/pulls)를 통해 기여해주실 수 있습니다.
+프로젝트 발전에 기여하시는 분들을 전부 환영합니다! [Pull Requests](https://github.com/23Hyohun/barocode/pulls)를 통해 기여해주실 수 있습니다.
 
 ## 업데이트 로그
 
-업데이트 로그는 [여기](https://github.com/jhk1090/namucode/blob/main/CHANGELOG.md)를 참고하세요.
+업데이트 로그는 [여기](https://github.com/23Hyohun/barocode/blob/main/CHANGELOG.md)를 참고하세요.
 
 ## 참고
 
-- [나무위키 문법 도움말](https://namu.wiki/w/나무위키:문법%20도움말)
+- [바로위키 문법 도움말](https://namu.wiki/w/바로위키:문법%20도움말)
 - [Textmate Grammar](https://macromates.com/manual/en/language_grammars)
 - [VSCode Extension Sample](https://github.com/microsoft/vscode-extension-samples)
