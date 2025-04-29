@@ -1,4 +1,4 @@
-# 나무코드 Namucode
+# 바로코드 Namucode
 
 [바로위키](https://baro.wiki)의 프로그램입니다. 많은 기능이 추가될 예정입니다.
 
